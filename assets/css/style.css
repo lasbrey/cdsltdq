@@ -699,7 +699,7 @@ ul.check-marks li:before {
   color: #fff;
 }
 .background-is-dark a {
-  color: #fff;
+  color: #000;
 }
 .background-is-dark a:hover, .background-is-dark a:active, .background-is-dark a:focus {
   color: #fff;
