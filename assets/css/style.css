@@ -39,12 +39,6 @@ Headers:		'Montserrat', sans-serif;
   left: 0;
   z-index: 99;
 }
-.navigation.show-background {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-.navigation.show-background:hover {
-  background-color: rgba(0, 0, 0, 0.9);
-}
 .navigation.nav-btn-only .nav-btn {
   display: block;
 }
@@ -108,7 +102,7 @@ Headers:		'Montserrat', sans-serif;
 .brand span{
   font-size: 20px;
   font-weight: bold;
-  color: #fff;
+  color: #000;
 }
 .navigation .left {
   display: table-cell;
@@ -123,6 +117,7 @@ Headers:		'Montserrat', sans-serif;
   position: relative;
 }
 .navigation .right .navigation-links {
+
   list-style: none;
   padding-left: 0;
   font-size: 14px;
@@ -2086,7 +2081,7 @@ hr {
 .modal.apartment-selector .nav-tabs li.active {
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
   opacity: 1;
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid rgb(1, 161, 9);
 }
 .modal.apartment-selector .nav-tabs li.active a {
   color: #000;
@@ -2277,7 +2272,7 @@ hr {
   box-shadow: none;
   border: none;
   background-color: transparent;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #048f391a;
 }
 .panel-group .panel .panel-heading {
   -moz-border-radius: 0px;
@@ -2459,7 +2454,7 @@ hr {
   margin: 20px 0;
 }
 .pricing-boxes .price-box .values figure {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #048f391a;
   padding: 4px 0;
 }
 .pricing-boxes .price-box .values figure:last-child {
@@ -2515,7 +2510,7 @@ hr {
   width: 100%;
 }
 .pricing-table thead {
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid #048f391a;
   font-size: 14px;
 }
 .pricing-table thead th {
@@ -2525,7 +2520,7 @@ hr {
   -moz-transition: 0.5s ease;
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #048f391a;
 }
 .pricing-table tbody tr:hover {
   background-color: rgba(0, 0, 0, 0.03);
@@ -3021,7 +3016,7 @@ form label.error {
 form.inputs-underline input[type="text"], form.inputs-underline input[type="email"], form.inputs-underline input[type="date"], form.inputs-underline input[type="time"], form.inputs-underline input[type="search"], form.inputs-underline input[type="password"], form.inputs-underline input[type="number"], form.inputs-underline input[type="tel"], form.inputs-underline textarea.form-control {
   -webkit-appearance: none;
   background-color: transparent;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+  border-bottom: 2px solid #048f391a;
   padding-left: 0;
 }
 form.inputs-underline input[type="text"]:active, form.inputs-underline input[type="text"]:focus, form.inputs-underline input[type="email"]:active, form.inputs-underline input[type="email"]:focus, form.inputs-underline input[type="date"]:active, form.inputs-underline input[type="date"]:focus, form.inputs-underline input[type="time"]:active, form.inputs-underline input[type="time"]:focus, form.inputs-underline input[type="search"]:active, form.inputs-underline input[type="search"]:focus, form.inputs-underline input[type="password"]:active, form.inputs-underline input[type="password"]:focus, form.inputs-underline input[type="number"]:active, form.inputs-underline input[type="number"]:focus, form.inputs-underline input[type="tel"]:active, form.inputs-underline input[type="tel"]:focus, form.inputs-underline textarea.form-control:active, form.inputs-underline textarea.form-control:focus {
@@ -3029,17 +3024,17 @@ form.inputs-underline input[type="text"]:active, form.inputs-underline input[typ
   -webkit-box-shadow: none;
   box-shadow: none;
   padding-left: 12px;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.15);
+  border-bottom: 2px solid #048f391a;
 }
 form.inputs-underline input[type="text"]:hover, form.inputs-underline input[type="email"]:hover, form.inputs-underline input[type="date"]:hover, form.inputs-underline input[type="time"]:hover, form.inputs-underline input[type="search"]:hover, form.inputs-underline input[type="password"]:hover, form.inputs-underline input[type="number"]:hover, form.inputs-underline input[type="tel"]:hover, form.inputs-underline textarea.form-control:hover {
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
   box-shadow: none;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid #048f391a;
 }
 form.inputs-underline .input-group .btn {
   background-color: transparent;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+  border-bottom: 2px solid #048f391a;
   padding: 12px 12px;
 }
 form.submitted .status {
@@ -3633,4 +3628,13 @@ form .status i {
   .version-selector .version .description {
     margin-left: 0;
   }
+}
+.bg-black{
+  background: #fff;
+}
+.left ul li {
+  color: #000;
+}
+.brand span .prop{
+  color: #50aa8d;
 }
